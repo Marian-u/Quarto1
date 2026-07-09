@@ -1,9 +1,21 @@
 ---
-title: "Project"
-format: html
-
+title: "My project"
+author: "nope"
+date: today
+format: 
+  html:
+    toc: true                
+    toc-title: My contents   
+    toc-location: left 
+    theme:  
+      light: sketchy
+      dark:  darkly
+    fontsize: 32px    
+self-contained: true #lets other people to see graphs and images that are in the files, makes no changes un the visual
+lang: en                
 ---
 
 # Presentation
 
-This is a Ceaser's website
+This is a Ceaser's website.
+He is a very stupid kitten. Unfortunately for everyone around, he also is very small and cute. 
