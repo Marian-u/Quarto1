@@ -19,6 +19,9 @@ format:
 self-contained: true #lets other people to see graphs and images that are in the files, makes no changes un the visual
 lang: en                
 # if i chenge / to \ in images, он мне е складывает в ссылку
+#for cros-referencing you need to know what is going on and how to call it
+reference-location: margin
+citation-location: margin
 ---
 
 # Presentation
@@ -26,24 +29,48 @@ lang: en
 This is a Ceaser's website.
 He is a very stupid kitten. Unfortunately for everyone around, he also is very small and cute. 
 
-![This is NOT him](images/lizard.jpg)
+![This is NOT him](images/lizard.jpg){#fig-lizard}
 
 
 He does not understand this: 
 This is an in-line equation $$y = \beta_0 + \beta_1 X + \varepsilon$${#eq-myequation}
 
-This is an  equation $$z = \dfrac{\bar{x} -\mu}{\sigma}$$
+This is an  equation $$z = \dfrac{\bar{x} -\mu}{\sigma}$${#eq-myequation}
 (neither am I)
 
 ## When will he go home? 
 
 Ideally today
-we treid to calculate it in @eq-myequation
+we treid to calculate it in @eq-myequation and in @eq-myequation
+
+In @eq-cttt we did something very stupid
+
+::: {.column-margin}
+$$X = v+ERJ$${#eq-cttt}
+:::
+
 
 ### Does he have a litter box?
 
 Not yet
+If you forgot what he does not look like, look at @fig-lizard
 
 #### Whose fault is that? 
 
 Amazon
+
+
+::: {.grid}
+
+::: {.g-col-4}
+this would be my first column
+:::
+  
+::: {.g-col-2}
+that's the second
+::: 
+  
+::: {.g-col-4}
+and the third
+::: 
+:::
