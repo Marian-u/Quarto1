@@ -1,0 +1,6 @@
+head(cars)
+#| echo: true
+#| error: false
+mean(y)
+installed.packages(knitr)
+installed.packages("knitr")

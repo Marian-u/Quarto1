@@ -61,4 +61,11 @@ plot(x, pnorm(x), type ="l", cex =2, lwd = 3)
 plot(pnorm(x), qnorm(pnorm(x)), type ="l", cex =2, lwd = 3)
 ```
 
+```{r}
+#| echo: true
+#| error: true
+
+mean(y)
+```
+
 
