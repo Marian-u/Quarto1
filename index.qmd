@@ -18,6 +18,7 @@ format:
     fontsize: 16px    
 self-contained: true #lets other people to see graphs and images that are in the files, makes no changes un the visual
 lang: en                
+# if i chenge / to \ in images, он мне е складывает в ссылку
 ---
 
 # Presentation
@@ -25,9 +26,19 @@ lang: en
 This is a Ceaser's website.
 He is a very stupid kitten. Unfortunately for everyone around, he also is very small and cute. 
 
+![This is NOT him](images/lizard.jpg)
+
+
+He does not understand this: 
+This is an in-line equation $$y = \beta_0 + \beta_1 X + \varepsilon$${#eq-myequation}
+
+This is an  equation $$z = \dfrac{\bar{x} -\mu}{\sigma}$$
+(neither am I)
+
 ## When will he go home? 
 
 Ideally today
+we treid to calculate it in @eq-myequation
 
 ### Does he have a litter box?
 
