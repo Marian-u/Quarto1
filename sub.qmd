@@ -1,0 +1,24 @@
+---
+title: "Code Chunks"
+author: "nope"
+date: today
+format: 
+  html:
+    toc: true                
+    toc-title: My contents   
+    toc-location: right 
+    grid:
+      sidebar-width: 127px
+      body-width: 900px
+      margin-width: 350px
+      gutter-width: 1.5rem
+    theme:  
+      light: sketchy
+      dark:  darkly
+    fontsize: 16px    
+self-contained: true 
+lang: en                
+reference-location: margin
+citation-location: margin
+---
+
