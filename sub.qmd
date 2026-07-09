@@ -20,5 +20,45 @@ self-contained: true
 lang: en                
 reference-location: margin
 citation-location: margin
+execute: 
+  echo: false
+  message: true
+  error: true
 ---
+@lst-default presents the default settting of the code
+lst-lable: weird defs
+
+```{r}
+#| echo: true
+head(cars)
+
+```
+
+```{r}
+#| echo: false
+head(cars)
+```
+
+```{r}
+x = seq(-3,3, length.out = 100000)
+dx = dnorm(x)
+
+plot(x, dx, type ="l", cex =2, lwd = 3)
+```
+
+
+```{r}
+#| layout-ncol: 3
+#| label: fig-NormalProperties
+#| fig-cap: Normal Distribution
+#| fig-subcap:
+#| - "Density"
+#| - "ot density"
+#| - "Veru much not densit"
+
+plot(x, dx, type ="l", cex =2, lwd = 3)
+plot(x, pnorm(x), type ="l", cex =2, lwd = 3)
+plot(pnorm(x), qnorm(pnorm(x)), type ="l", cex =2, lwd = 3)
+```
+
 
